@@ -1,0 +1,14 @@
+push float(2.0)
+push float(3.0)
+div
+assert float(0.6666667)
+push double(2.0)
+push double(3.0)
+div
+assert double(0.666666666666667)
+push float(50.0)
+push double(2000.0)
+div
+assert double(0.025)
+dump
+exit;

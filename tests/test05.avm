@@ -1,0 +1,15 @@
+push int8(66)
+print
+push int8(111)
+print
+push int8(110)
+print
+push int8(106)
+print
+push int8(111)
+print
+push int8(117)
+print
+push int8(114)
+print
+exit

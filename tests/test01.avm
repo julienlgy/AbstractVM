@@ -1,0 +1,6 @@
+push int8(5); insert 5
+push int8(5); also insert 5
+mul
+assert int8(25)
+dump
+exit; exiting the program

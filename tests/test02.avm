@@ -1,0 +1,22 @@
+; TESTING MULTIPLICATION
+push int32(50)
+push int8(50)
+mul
+assert int32(2500)
+; TESTING SUBSTRACTION
+push int8(10)
+push int8(6)
+sub
+assert int8(4)
+; TESTING DIVISION
+push int8(10);
+push int8(5);
+div;
+assert int8(2);
+; TESTING MODULO
+push int8(10)
+push int8(3)
+mod
+assert int8(1)
+dump
+exit
